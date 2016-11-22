@@ -1,0 +1,28 @@
+{
+  "name": "starwarsworld",
+  "version": "1.0.0",
+  "description": "\"A simple search box to search the star wars api (swapi)\"",
+  "main": "index.js",
+  "keywords": [
+    "search",
+    "starwars",
+    "swapi",
+    "app"
+  ],
+  "author": "JithinChand",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "angular-animate": "^1.5.8",
+    "angular-aria": "^1.5.8",
+    "angular-local-storage": "^0.5.0",
+    "angular-material": "^1.1.1",
+    "angular-route": "^1.5.8",
+    "gulp": "^3.9.1",
+    "gulp-util": "^3.0.7",
+    "ngprogress": "^1.1.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.14.0",
+    "jasmine": "^2.5.2"
+  }
+}

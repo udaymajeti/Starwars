@@ -1,0 +1,78 @@
+body {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    margin: auto;
+    background: url(../img/yoda.jpg) no-repeat fixed center;
+    background-size: cover;
+}
+
+p {
+    text-align: Center;
+    font-size: 30px;
+    text-shadow: 0 0 1px grey, 0 0 8px yellow;
+    color: black;
+    font-weight: bolder;
+    position: relative;
+    padding: 0;
+    border: 0;
+    margin: auto;
+}
+
+@font-face {
+    font-family: StarWarsJedi;
+    src: url(../font/Starjedi.ttf) format('truetype');
+}
+
+.StarWars p {
+    font-size: 75px;
+    font-family: "StarWarsJedi",fantasy;
+    font-weight: bolder;
+    color: black;
+    text-shadow: 0 0 3px white, 0 0 10px yellow;
+    position: relative;
+    margin: auto;
+    border: 0;
+    padding: 0;
+    text-align: center;
+}
+
+[tabindex='-1']:focus {
+    outline: none; }
+
+.date_info p{
+    font-size: 30px;
+    text-shadow: 0 0 8px grey;
+    color: white;
+    font-weight: bolder;
+    position: relative;
+    padding: 0;
+    border: 0;
+    margin: auto;
+}
+
+#Det {
+    font-size: 20px;
+    text-shadow: 0 0 8px grey;
+    color: white;
+    font-weight: bolder;
+    position: relative;
+    padding: 0;
+    border: 0;
+    margin: auto;
+}
+
+#Det p {
+    text-align: left;
+    font-size: 20px;
+    text-shadow: 0 0 8px grey;
+    color: white;
+    font-weight: bolder;
+    position: relative;
+    padding: 20px;
+    margin: auto;
+}
+
+.SrchBar {
+    padding: 10px;
+}
